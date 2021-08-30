@@ -1,44 +1,28 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-
-    <body>
-        <script type="text/javascript">
-        //Declaring Variables - Example#01
-            let msg; let user; let gender;
-
-            msg="Hello World!"; //store the string "Hello World!" in the msg variable
-            user="John"; gender="Male";
-
-            alert(msg);
-            alert(user); 
-        </script>
-
-        <script>
-        //Declaring Variables - Example#02
-            /* let msg;
-            msg = "Hello";
-            msg = "World";
-            alert(msg); */
-        </script>
-
-        <script>
-         //Declaring Variables - Example#03
-            /*let msg1 = "Hello World";
-            let msg2;
-
-            msg2 = msg1;
-            alert(msg1); alert(msg2);*/
-        </script>
-
-        <script>
-            /*dont use var with let vice versa, 
-            if the script has let, use let and d
-            dont use var function*/
-
-            let msgs = "This"; let msgt = "That";
-
-            alert(msgs);
-        </script>
-    </body>
-
+    <head>
+        <title>Module01-MP02</title>
+    </head>
+        <body>
+            
+            <script type="text/javascript">
+            //Module 01- Activity 02    
+            let valA = prompt("Please Enter Value:"); // Value A
+            let valB = prompt("Please Enter Value:"); // Value B
+            var num1 = parseInt(valA); //parseInt: convert text to integer
+            var num2 = parseInt(valB);   
+             
+                if (num1 > num2) {
+                    alert("Value A is Higher");
+                } 
+                else if (num1 < num2) { 
+                    alert("Value B is Higher");
+                }
+                else{
+                    alert("Value A and Value B are equal");
+                }
+                
+                </script>
+        
+        </body>
 </html>
