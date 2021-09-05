@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+    <body>
+        <script>
+            
+            //alert (alert (1) || 2 || alert(4));
+            //alert (null || 2 || 0);
+            let sum = 0;
+            while(true){
+               let value = +prompt("Enter a number", '');
+               if (!value) break;
+               sum += value;
+            }
+            alert ('Sum: ' + sum);
+
+
+        </script>
+
+        <script>
+            let a = 3+3;
+            switch(a){
+                case 4:
+                    alert("Right!");
+                    break;
+                case 3:
+                    alert ("Too Small");
+                    break;
+                case 5:
+                    alert ("Too High");
+                    break;
+                default:
+                    alert("No value match");
+                    break;
+            }
+        </script>
+    </body>
+
+</html>
