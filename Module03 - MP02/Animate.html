@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Animate Multiple CSS</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+      $("button").click(function(){
+        $("div").animate({
+          left: '350px',
+          right: '350px',
+          opacity: '0.5',
+          height: '340px',
+          width: '340px'
+           
+        });
+      });
+    });
+    </script> 
+    </head>
+    <body>
+        <h2>Animate Multiple CSS properties</h2>
+    <button>Start Animation</button>
+    
+    <p>Press "Start Animation" above to observe animation :)</p>
+    
+    <div style=
+        "background:#2cef21;
+        height:200px;
+        width:200px;
+        position:relative;
+        text-align:center;
+        text-size-adjust: 100;">
+        My Style</div>
+    
+</body>
+</html>

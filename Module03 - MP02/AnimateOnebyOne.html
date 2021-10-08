@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>AnimateOnebyOne</title>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<style>
+.box{
+    width: 100px;
+    height: 100px;
+    background: #2cef21;
+}
+</style>
+
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $(".box")
+            .animate({width:  "1260px"})
+            .animate({height: "600px"})
+            .animate({marginLeft: "10px"})
+            .animate({opacity:0.1});
+            $(".text")
+            .animate({fontSize: '10em'}, "slow");
+            
+        });
+    });
+
+
+</script>
+
+</head>
+
+<body>
+    <h2>Animate Multiple CSS properties only by one in jQuery</h2>
+  <button type="button">Animate</button>
+  <div class="box">
+  <div class="text">My Style</div></div>
+</body>
+
+</html>
